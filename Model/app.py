@@ -2,7 +2,7 @@ import gradio as gr
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 # Load model and tokenizer from Hugging Face Model Hub
-model_name = "farelzii/GEC_Test_v1"
+model_name = "farelzii/NaraSpeak_GEC_V1"
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 
