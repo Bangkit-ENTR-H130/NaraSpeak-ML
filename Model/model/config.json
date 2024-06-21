@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "pszemraj/flan-t5-large-grammar-synthesis",
+  "_name_or_path": "farelzii/NaraSpeak_GEC_V1",
   "architectures": [
     "T5ForConditionalGeneration"
   ],
